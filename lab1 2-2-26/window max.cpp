@@ -8,6 +8,7 @@ using namespace std;
 int main(){
     int max = INT_MIN;
     int a[6] ={2,6,-12,76,9};
+    //int a[6] ={2,5,7,-3,4,10};
     for(int i =0;i<4;i++){ //6-3+1=4 windows of size 3
         int sum = 0;
         for(int j = 0;j<3;j++){

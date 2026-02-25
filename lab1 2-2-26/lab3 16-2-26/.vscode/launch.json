@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/BAUST Study materials/Level 2 Term1 win26/DSA LAB CSE2104/DSA ALL LAB CODE/lab1 2-2-26/lab3 16-2-26",
+      "program": "d:/BAUST Study materials/Level 2 Term1 win26/DSA LAB CSE2104/DSA ALL LAB CODE/lab1 2-2-26/lab3 16-2-26/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

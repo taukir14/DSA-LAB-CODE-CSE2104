@@ -19,7 +19,8 @@ int end=5;
 int sum = 0;
 
 for(int i = start;i<=end;i++){
-    sum=sum+v[start];
+    sum=sum+v[i]; //sum of elements from index start to end
 }
+cout<<"sum of elements from index "<<start<<" to "<<end<<" is : "<<endl;
 cout<<sum<<endl;
 }
